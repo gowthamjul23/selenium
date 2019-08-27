@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.trigent.test.ActivateEmployer">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.ActivateEmployer -->
+      <class name="com.trigent.test.VerifyPlanInformation">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.VerifyPlanInformation -->
+      <class name="com.trigent.test.VerifyProducerDetails">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.VerifyProducerDetails -->
+      <class name="com.trigent.test.VerifyGenerateBills">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.VerifyGenerateBills -->
+      <class name="com.trigent.test.VerifyClasses">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.VerifyClasses -->
+      <class name="com.trigent.test.CreditPayment">
+        <methods>
+          <include name="PaythroCredit"/>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.CreditPayment -->
+      <class name="com.trigent.test.AddPlans">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.AddPlans -->
+      <class name="com.trigent.test.VerifyEmployeeCoveragewithVolumeMonthlyPremium">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.VerifyEmployeeCoveragewithVolumeMonthlyPremium -->
+      <class name="com.trigent.test.PayTotalOutstandingBalance">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.PayTotalOutstandingBalance -->
+      <class name="com.trigent.test.VerifyEmployer">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.VerifyEmployer -->
+      <class name="com.trigent.test.VerifyUploadCensus">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.VerifyUploadCensus -->
+      <class name="com.trigent.test.VerifyEmployeeDetails">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.VerifyEmployeeDetails -->
+      <class name="com.trigent.test.VerifyTerminatePlans">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.VerifyTerminatePlans -->
+      <class name="com.trigent.test.VerifyInvoiceandPayments">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.VerifyInvoiceandPayments -->
+      <class name="com.trigent.test.OnlineInvoicePayment">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.OnlineInvoicePayment -->
+      <class name="com.trigent.test.TotalOutstandingandBalanceAmount">
+        <methods>
+          <include name="tearDownAfterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.trigent.test.TotalOutstandingandBalanceAmount -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

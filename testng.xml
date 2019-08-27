@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+    <!--   <class name="com.trigent.test.VerifyWelcomeEmail"/> -->
+      <class name="com.trigent.test.VerifyEmployer"/>
+      <class name="com.trigent.test.VerifyUploadCensus"/>
+      <class name="com.trigent.test.ActivateEmployer"/>
+      <class name="com.trigent.test.VerifyClasses"/>
+      <class name="com.trigent.test.VerifyPlanInformation"/> 
+      <class name="com.trigent.test.VerifyEmployeeDetails"/>
+      <class name="com.trigent.test.VerifyEmployeeCoveragewithVolumeMonthlyPremium"/>
+      <class name="com.trigent.test.AddPlans"/>
+      <class name="com.trigent.test.VerifyTerminatePlans"/>
+      <class name="com.trigent.test.VerifyGenerateBills"/>
+      <class name="com.trigent.test.VerifyInvoiceandPayments"/>  
+      <!--   <class name="com.trigent.test.VerifyACHPayment"/> -->
+      <class name="com.trigent.test.OnlineInvoicePayment"/>
+      <class name="com.trigent.test.CreditPayment"/>
+      <class name="com.trigent.test.PayTotalOutstandingBalance"/>
+      <class name="com.trigent.test.TotalOutstandingandBalanceAmount"/>
+     <!--  <class name="com.trigent.test.VerifyCheckUpload"/>--> 
+      <class name="com.trigent.test.VerifyProducerDetails"/>
+    <!--   <class name="com.trigent.test.VerifyPayCommissiontoProducers"/>--> 
+ <!-- <class name="com.trigent.test.CreateQuarterlyInvoice"/>--> 
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

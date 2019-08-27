@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TrigentTestSuit" parallel="tests">
+	<listeners>
+<!-- 		<listener class-name="listener.TestsListenerAdapter"/>  -->
+	</listeners>
+	<test name="LoginTest">
+		<groups>
+			<run>
+				<include name="logintest1"/>
+				<include name="logintest2"/>
+			</run>
+		</groups>
+		<classes>
+				<class name="com.trigent.test.SampleLoginTest" />
+		</classes>
+	</test>
+</suite>
